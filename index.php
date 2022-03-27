@@ -20,20 +20,20 @@ include "logic.php";
 </head>
 <body>
 <div class="p-5 my-3 text-center container-fluid bg-light">
-<h1>Covid-19 Tracker</h1>
+<h1>Covid-19 Tracker for 2022 Are we sure of the Ukraine War?? Please help us!!</h1>
 </div>
 <div class="container my-5">
 <div class="row text-center">
 <div class="col-md-4 text-warning">
-<h5>Confirmed</h5>
+<h5>Confirmed cases </h5>
 <?php echo $total_confirmed; ?>
 </div>
 <div class="col-md-4 text-success">
-<h5>Recovered</h5>
+<h5>Recovered cases </h5>
 <?php echo $total_recovered; ?>
 </div>
 <div class="col-md-4 text-danger">
-<h5>Deceased</h5>
+<h5>Deceased people </h5>
 <?php echo $total_dead;?>
 </div>
 </div>
@@ -78,7 +78,7 @@ include "logic.php";
 </div>
 <footer class="footer mt-auto py-3">
 <div class="container text-center">
-    <span class="text-muted">2020 was a year</span>
+    <span class="text-muted">2020 was a year <?php time(); ?></span>
 </div>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

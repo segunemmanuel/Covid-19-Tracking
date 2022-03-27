@@ -16,5 +16,10 @@ $total_confirmed= $total_confirmed + $value[$days_count]['confirmed'];
 $total_recovered= $total_recovered + $value[$days_count]['recovered'];
 $total_dead= $total_dead + $value[$days_count]['deaths'];
 
-}
+};
+
+function showdate($a,$b){
+return $a+$b;
+};
+
 ?>
